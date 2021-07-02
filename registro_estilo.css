@@ -16,7 +16,7 @@ header{
 	color: white;
 }
 .center2{
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 }
 #logo2{
@@ -59,7 +59,7 @@ header{
 	clear: both;
 	text-align: center;
 	height: 600px;
-	width: 947px;
+	width: 100%;
 	padding-top: 55px;
 	color: white;
 	text-align: center;
@@ -86,7 +86,7 @@ header{
 	height: 20px;
 }
 #pass2{
-	margin-left: 270px;
+	margin-left: 34%;
 	width: 390px;
 	border-radius: 4.5px;
 	border-style: solid black;
@@ -105,10 +105,9 @@ header{
 #fechas{
 	/*background: pink;*/
 	padding: 5px 15px;
-	justify-content: center; 
-	margin-right: -100px;
+	margin-right: 0px;
 	padding-left: 10px;
-	margin-left: 310px; 
+	margin-left: 36.5%;
 	border-radius: 2px;
 	
 }
@@ -117,7 +116,7 @@ header{
 	padding: 5px 15px;
 	margin-right: -100px;
 	padding-left: 10px;
-	margin-left: 135px; 
+	margin-left: 35px; 
 	margin-bottom: 50px;
 	border-radius: 2px;
 }
@@ -137,7 +136,7 @@ header{
 	/*background: blue;*/
 	padding: 5px 5px;
 	padding-bottom: 15px;
-	margin-left: 305px;
+	margin-left: 35%;
 	color: white;
 }
 #check1{
@@ -146,7 +145,7 @@ header{
 	font-family: Ebrima;
 	/*background: blue;*/
 	padding: 5px 5px;
-	margin-left: 285px;
+	margin-left: 33.5%;
 	margin-top: 15px;
 	color: white;
 }
@@ -165,7 +164,7 @@ header{
 	height: 30px;
 	width: 370px;
 	margin-top: 15px;
-	margin-left: 300px;
+	margin-left: 35%;
 }
 .boton_regis{
 	position: relative;

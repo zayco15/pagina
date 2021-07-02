@@ -16,7 +16,7 @@ header{
 	color: white;
 }
 .center_3{
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 }
 #logo_3{
@@ -65,7 +65,7 @@ header{
 	clear: both;
 	text-align: center;
 	height: 600px;
-	width: 947px;
+	width: 100%;
 	padding-top: 55px;
 	color: white;
 	text-align: center;
@@ -112,7 +112,7 @@ header{
 	height: 30px;
 	width: 370px;
 	margin-top: 15px;
-	margin-left: 290px;
+	margin-left: 35.5%;
 }
 .botonton{
 	position: relative;
