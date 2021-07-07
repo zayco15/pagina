@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>reproductor de musica</title>
+   		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 		 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+   		 <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<header id="header">
+		<div id="logo"><img src="imagenes/logo.jpg" style="height: 70px"></div>
+		<ul class="nav">
+			<li><a href="form1.html">Iniciar Sesion</a></li>
+
+			<li><a href="registro.html">Registrarse</a></li>
+			<li><a href="">Novedades</a></li>
+			<li><a href="">Menu</a>
+				<ul>
+					<li>
+						<li><a href="contacto.html">Contacto</a></li>
+						</li>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+
+	<!--- comienzo del reproductor --->
+	<div class="cajita">
+	<div class="main">
+  	<p id="logo"><i class="fa fa-music"></i>Musica</p>
+    
+    <!--- parte izquierda --->
+     <div class="izquierda">
+
+      <!--- imagen --->
+      <img id="track_image">
+         <div class="volume">
+            <p id="volume_show">90</p>
+                <i class="fas fa-volume-up" id="volume_icon" onclick="mute_sound()"></i>
+            <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+         </div>
+
+     </div>
+ 
+
+     <!--- parte derecha --->
+  	 <div class="derecha">
+
+        <div class="show_song_no">
+          <p id="present">1</p>
+          <p>/</p>
+          <p id="total">4</p>
+        </div>
+
+       <!--- titulo de la cancion y artista --->
+      <p id="title">titulo</p>
+      <p id="artist">nombre del artista</p>
+
+      <!--- parte media --->
+  	 	<div class="middle">
+  	         <button onclick="previous_song()" id="pre"><i class="fas fa-step-backward"></i></button>
+             <button onclick="justplay()" id="play"><i class="fas fa-play"></i></button>
+  	         <button onclick="next_song()" id="next"><i class="fas fa-step-forward"></i></button>
+  	   </div>
+
+       <!--- duracion --->
+        <div class="duration">
+           <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+        </div>
+           <button id="auto" onclick="autoplay_switch()">Auto play <i class="fas fa-circle-notch"></i></button>
+  	</div>
+
+  	</div>
+  </div>
+   
+  <!--- javascript --->
+  <script src="script.js"></script>
+
+
+</body>
+</html>

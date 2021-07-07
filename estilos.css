@@ -2,7 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Geometr706 BdCn BT;
+	font-family: Century Gothic;
 }
 
 
@@ -82,17 +82,19 @@ ul, ol {
  }
 
 .texto1 {
- 	color: red;
+ 	color: white;
  	font-size: 2em;
- 	font-family:;
+ 	
+ 	font-weight: bold;
  	text-align: center;
  	padding-top: 25%;
  }
 
 .texto2 {
-	color: red;
+	color: white;
  	font-size: 2em;
- 	font-family:;
+ 	
+ 	font-weight: bold;
  	text-align: center;
  	padding-top: 5%;
  }
@@ -124,8 +126,9 @@ ul, ol {
 	text-align: center;
 	font-size: 1.6em;
 	color: #fff;
-	text-shadow: 0 0 20px #ff005b;
-	font-style: 'Quicksand';
+	text-shadow: 0 0 20px #61c1d8;
+	font-style: 'Century Gothic';
+	font-weight: bold;
 }
 
 .texto3 {
@@ -133,9 +136,12 @@ ul, ol {
 	font-size: 1.3em;
 	line-height: 1.5;
 	color: #fff;
+	font-style: "Ebrima";
+	
 }
 
 
+/*FOTOS MARTIN Y DEBRA*/
 
 .card{
     height: 350px;
@@ -153,17 +159,28 @@ ul, ol {
     display: flex;
     justify-content:center;
 }
+
+.info button{
+    background-color: #f79f08;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    position: absolute;
+    bottom: 30px;
+}
 .nombre{
     font-size: 35px;
     font-family: "Raleway",sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #f79f08;
+    color:  #3b3b3f;
     position: absolute;
     top:100px;
 }
 .profesion{
-    color: #555555;
+    color:  #3b3b3f;
     font-family: 'Work Sans', sans-serif;
     font-size: 25px;
     position: absolute;
@@ -172,7 +189,7 @@ ul, ol {
 .divisor{
     height: 1.5px;
     width: 50px;
-    background-color: #949594;
+    background-color: #61c1d8;
     position: absolute;
     top:190px;
 }
@@ -185,16 +202,7 @@ ul, ol {
     position: absolute;
     top:220px;
 }
-button{
-    background-color: #f79f08;
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    border: none;
-    font-size: 20px;
-    padding: 13px 25px;
-    position: absolute;
-    bottom: 30px;
-}
+
 .foto3{
     height: 100%;
     width: 100%;
@@ -212,9 +220,6 @@ button{
     border-radius: 50%;
 }
 
-
-
-
 .card2{
     height: 350px;
     width: 310px;
@@ -225,18 +230,29 @@ button{
     border-radius: 8px;
     box-shadow: 0 0 25px 10px rgba(97, 193, 216, 0.5);
 }
-.info2{
+.info2 {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content:center;
+}
+
+.info2 button{
+    background-color: #f79f08;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+    font-size: 20px;
+    padding: 13px 25px;
+    position: absolute;
+    bottom: 30px;
 }
 .nombre2{
     font-size: 35px;
     font-family: "Raleway",sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #f79f08;
+    color: #3b3b3f;
     position: absolute;
     top:100px;
 }
@@ -250,20 +266,9 @@ button{
 .divisor2{
     height: 1.5px;
     width: 50px;
-    background-color: #949594;
+    background-color: #61c1d8;
     position: absolute;
     top:190px;
-}
-}
-button{
-    background-color: #f79f08;
-    color: white;
-    font-family: 'Work Sans', sans-serif;
-    border: none;
-    font-size: 20px;
-    padding: 13px 25px;
-    position: absolute;
-    bottom: 30px;
 }
 .foto4{
     height: 100%;
@@ -282,8 +287,389 @@ button{
     border-radius: 50%;
 }
 
+/*BARRA MENU */
+#menu_form{
+	/*background: pink;*/
+	float: right;
+	list-style: none;
+	margin-top: 15px;
+}
+#menu_form li{
+	float: left;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+#menu_form li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-right: 10px;
+	color: white;
+}
+#menu_form li a:hover{
+	background: #61c1d8;
+	color: black;
+	padding: 10px 10px;
+	border-radius: 3px;
+	box-shadow: 0 3px 9px #fff;
+}
+/*REGISTRO*/
+#registro{
+	background: black;
+	clear: both;
+	text-align: center;
+	height: 600px;
+	width: 100%;
+	padding-top: 55px;
+	color: white;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 18px;
+}
+
+#registro h1 {
+	margin-right: 5%;
+}
+#registro form{
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 30px;
+	margin-left: 2%;
+	/*background: pink;*/
+}
+
+#registro input{
+	margin-bottom: 1%;
+	border-radius: 4.5px;
+	border-style: solid black;
+	padding: 5px;
+	/*background: red;*/
+	margin-left: 30%;
+}
+.ajustar2{
+	display: block;
+	width: 390px;
+	height: 20px;
+}
+#pass2{
+	margin-left: 270px;
+	width: 390px;
+	border-radius: 4.5px;
+	border-style: solid black;
+	padding: 5px;
+}
+/*fechas*/
+#fech{
+	display: flex;
+	/*background: blue;*/
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 10px;
+	margin-right: 7%;
+}
+
+#fechas{
+	/*background: pink;*/
+	padding: 5px 15px;
+	justify-content: center; 
+	margin-right: -100px;
+	padding-left: 10px;
+	margin-left: 32%; 
+	border-radius: 2px;
+	
+}
+#meses{
+	/*background: orange;*/
+	padding: 5px 15px;
+	margin-right: -100px;
+	padding-left: 10px;
+	margin-left: 135px; 
+	margin-bottom: 50px;
+	border-radius: 2px;
+}
+#anos{
+	/*background: red;*/
+	padding: 5px 15px;
+	margin-right: -100px;
+	padding-left: 10px;
+	margin-left: 135px; 
+	margin-bottom: 50px;
+	border-radius: 2px;
+}
+#terminos{
+	justify-content: center;
+	text-decoration: none;
+	font-family: Ebrima;
+	/*background: blue;*/
+	padding: 5px 5px;
+	padding-bottom: 15px;
+	margin-left: 30%;
+	color: white;
+}
+#check1{
+	justify-content: center;
+	text-decoration: none;
+	font-family: Ebrima;
+	/*background: blue;*/
+	padding: 5px 5px;
+	margin-left: 285px;
+	margin-top: 15px;
+	color: white;
+}
+#check1_2{
+	justify-content: center;
+	text-decoration: none;
+	font-family: Ebrima;
+	/*background: blue;*/
+	padding: 5px 5px;
+	margin-top: 15px;
+	color: white;
+
+}
+/*INICIAR SESION*/
+#ingreso{
+	background: #3b3b3f;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #72727a; 
+	clear: both;
+	text-align: center;
+	height: 370px;
+	padding-top: 55px;
+	color: white;
+	float: right;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 18px;
+	margin-top: 3.5%;
+
+}
+#ingreso form{
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 30px;
 
 
+}
+#ingreso a{
+	color: white;
+	font-family: Ebrima;
+	font-size: 15px;
+	line-height: 20px;
+	text-decoration: none;
+	margin: 0 auto;
+	width: 100px;
+}
+#ingreso input{
+	margin-bottom: 20px;
+	border-radius: 2px;
+	
+}
+.ajustar{
+	display: block;
+	width: 390px;
+	height: 20px;
+}
+#nombre{
+	border: 2px solid white;
+}
+#pass{
+	border: 2px solid white;
+
+}
+#login_button{
+	height: 30px;
+	width: 400px;
+	margin-top: 15px;	
+}
+.btn_neon{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 10px #3b3b3f;
+	font-family: Bahnschrift;
+	border: 2px solid #61c1d8;
+	border-radius: 5px;
+	font-size: 15px;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn_neon:hover{
+	background-color:#61c1d8;
+	box-shadow: 0 0 10px #61c1d8, 0 0 20px purple, 0 0 20px  #61c1d8; 
+
+}
+
+/*texto izquierda*/
+#text1{
+	background: black;
+	justify-content: space-around;
+	padding: 45px 20px;
+	padding-right: 100px;
+	height: 430px;
+}
+
+#text1 h2{
+	font-family:  Copperplate Gothic Bold; 
+	margin-top: 95px;
+	color: #61c1d8;
+	font-size: 35px;
+}
+#text1 p{
+	color: white;
+	font-family: Ebrima;
+	font-size: 12.5px;
+	padding-left: 7px;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+/*CONTACTOOOOOOOO*/
+#contacto1{
+	background: black;
+	clear: both;
+	text-align: center;
+	height: 600px;
+	width: 100%;
+	padding-top: 55px;
+	color: white;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 34%;
+}
+
+#contacto1 h1 {
+	margin-right: 7%;
+}
+#contacto1 form{
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 30px;
+}
+#contacto1 input{
+	margin-bottom: 3.5%;
+	border-radius: 4.5px;
+	border-style: solid black;
+	padding: 5px;
+	margin-left: 30%;
+	/*background: pink;*/
+	
+}
+.ajuste{
+	display: block;
+	width: 390px;
+	height: 20px;
+}
+/*coment section*/
+	#coment2{
+	display: flex;
+	/*background: blue;*/
+	margin-left: 39%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+#comentarios{
+	display: flex;
+	box-shadow: 3px 3px 9px #61c1d8;
+	border-radius: 5px;
+	margin-left: 36.5%;
+}
+
+/*ENCUESTAS*/
+#encuesta{
+	background: black;
+	height: 600px;
+	width: 100%;
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-right: 18px;
+}
+#encuesta form{
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 30px;
+	align-content: center;
+	margin-left: 8%;
+	
+
+}
+#encuesta input{
+	margin-bottom: 20px;
+	border-radius: 4.5px;
+	border-style: solid black;
+	padding: 5px;
+	
+}
+#encuesta h4{
+	align-content: center;
+	font-weight: lighter;
+	margin-left: 23.5%;	
+
+}
+#encuesta h1{
+	margin-left: -3.5%;
+}
+.modificar{
+	justify-content: center;
+	margin-left: 40%;
+
+}
+#radio2{
+	margin-left: 10.5%;
+}
+/*coment section*/
+#coment{
+	display: flex;
+	/*background: blue;*/
+	justify-content: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px 10px;
+	margin-left: 1%;
+	margin-right: 15%;
+}
+#ideas{
+	display: flex;
+	box-shadow: 3px 3px 9px #61c1d8;
+	border-radius: 5px;
+	margin-left: 31.5%;
+	margin-right: 15%;
+}
+#login_btn{
+	height: 30px;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 25%;	
+}
+.bton_neon{
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 10px #3b3b3f;
+	font-family: Bahnschrift;
+	border: 2px solid #61c1d8;
+	border-radius: 5px;
+	font-size: 15px;
+	overflow: hidden;
+	transition: 0.2s;
+
+}
+.btn_neon:hover{
+	background-color:#61c1d8;
+	box-shadow: 0 0 10px #61c1d8, 0 0 20px purple, 0 0 20px  #61c1d8; 
+
+}
+/*PIE DE PAGINA*/
 footer{
 	background: black;
 	height: 150px;
@@ -322,7 +708,6 @@ footer{
 	/*background: green;*/
 	height:20px;
 	padding: 10px;
-
 	padding-top: 15px;
 	margin-left: 40px;
 	margin-top: 60px; 
@@ -396,4 +781,210 @@ footer{
 	display: inline-flex;
 	/*background: pink;*/
 
+}
+
+
+/*comienzo del reproductor*/
+
+.cajita {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: red;
+}
+
+.main{
+	position: relative;
+	height: 80%;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(to right, #5D6D7E, #566573);
+}
+.main button{
+	padding: 10px 12px;
+	margin: 0 10px;
+}
+.main #logo{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	font-size: 25px;
+	color: #ccc;
+}
+.main #logo i{
+	margin-right: 15px;
+}
+
+/* zona izquierda y derecha */
+.derecha,.izquierda{
+	position: relative;
+	height: 100%;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* imagen de la cancion */
+.izquierda img{
+	height: 300px;
+	width: 80%;
+	border-radius: 15px;
+	box-shadow: 1px 0px 20px 12px rgba(240,240,240,0.2);
+}
+
+/* rango de ambos sliders */
+input[type="range"] {
+	-webkit-appearance: none;
+	width: 50%;
+	outline: none;
+	height: 2px;
+	margin: 0 15px;
+}
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance: none;
+	height: 20px;
+	width: 20px;
+	background: #FF8A65;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.right input[type=range]{
+	width: 40%;
+}
+
+
+
+/* volumen */
+.izquierda .volume{
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.izquierda .volume p{
+	font-size: 15px;
+}
+.izquierda .volume i{
+	cursor: pointer;
+	padding: 8px 12px;
+	background: #FF8A65;
+}
+.izquierda .volume i:hover{
+	background: rgba(245,245,245,0.1);
+}
+.volume #volume_show{
+	padding: 8px 12px;
+	margin: 0 5px 0 0;
+	background: rgba(245,245,245,0.1);
+}
+
+
+
+/* zona derecha*/
+ .derecha .middle{
+ 	width: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.derecha .middle button{
+	border: none;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;	
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: none;
+	transition: 0.5s;
+	background: rgba(255,255,255,0.1);
+}
+.derecha #title{
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 35px;
+}
+.derecha #artist{
+	position: absolute;
+	top: 110px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 18px;
+}
+.derecha .duration{
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 20px;
+	margin-top: 40px;
+}
+.derecha .duration p{
+	color: #fff;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.derecha #auto{
+	font-size: 18px;
+	cursor: pointer;
+	margin-top: 45px;
+	border: none;
+	padding: 10px 14px;
+	color: #fff;
+	background: rgba(255,255,255,0.2);
+	outline: none;
+	border-radius: 10px;
+}
+.derecha #auto i{
+	margin-left: 8px;
+}
+#play{
+	background: #FF8A65;
+}
+.derecha button:hover{
+	background: #FF8A65;
+}
+.derecha i:before{
+	color: #fff;
+	font-size: 20px;
+}
+
+.derecha .show_song_no{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  color: #fff;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.2);
+}
+.derecha .show_song_no p:nth-child(2){
+	margin: 0 5px;
 }
